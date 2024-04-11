@@ -2,12 +2,24 @@
 <html>
 
 <head>
+    <script src="Final-project.js"defer></script>
     <meta charset="utf-8">
     <title>Technical Support Scam</title>
     <link rel="stylesheet" href="newstyle.css">
 </head>
 
 <body>
+    <div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href ="homepage.html">Home page</a></li>
+                <li><a href="finalpage1.html">About</a></li>
+                <li><a href="finalpage2.html">Its Affect on the World </a></li>
+                <li><a href="finalpage3.html">Fraud</a></li>
+                <li><a href="finalpage4.html">Become Aware</a></li>
+                <li><a href="finalpage5.html">Heroes</a></li>
+            </ul>
+        </div>
     <h1>Techniacal Support Scam</h1>
 
 <h2>The Most Common Scam</h2>
@@ -20,12 +32,20 @@
 
 <h3>Examples of what it can look like</h3>
 <div class="image-container">
-    <img src="fakewarning.png.webp" alt="html5" width="400" height="300">
-    <img src="scamexample.png" alt="html5" width="400" height="300">
+    <img id="docs" src="fakewarning.png.webp" alt="html5" width="400" height="300">
+    <img id="image" src="scamexample.png" alt="" width="400" height="300">
     <img src="example2.avif" alt="html5" width="400" height="300">
 </div>
 
 
 <p> The images above is an example of what a user might see on their computer. The image features a fake warning sign indicating that the system has a virus or a "threat". 
     The user may then call the number provided at the bottom, which directs them to a scam call center posing as a fake business that claims to stop viruses.
+    <button id="googleFormButton">Click here to take our survey </button>
+
+    <script>
+        document.getElementById('googleFormButton').onclick = function() {
+            window.location.href = "https://docs.google.com/forms/d/1_jiV7is4F8EN_eGd8DY0ZYuEduIpLvC0AtHO_9mZ9bY/edit";
+        };
+    </script>
+
 </p>
